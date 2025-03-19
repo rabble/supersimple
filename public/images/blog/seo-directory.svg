@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450">
+  <rect width="800" height="450" fill="#4F46E5" opacity="0.1"/>
+  <path d="M300,260 L380,180 L460,220 L540,140" stroke="#4F46E5" stroke-width="3" fill="none"/>
+  <rect x="300" y="180" width="240" height="120" rx="5" fill="#4F46E5" opacity="0.05"/>
+  <rect x="320" y="200" width="200" height="20" rx="3" fill="#4F46E5" opacity="0.2"/>
+  <rect x="320" y="230" width="200" height="20" rx="3" fill="#4F46E5" opacity="0.2"/>
+  <rect x="320" y="260" width="200" height="20" rx="3" fill="#4F46E5" opacity="0.2"/>
+  <text x="400" y="100" font-family="Arial" font-size="24" font-weight="bold" text-anchor="middle" fill="#4F46E5">SEO for Directories</text>
+  <text x="400" y="350" font-family="Arial" font-size="16" text-anchor="middle" fill="#4F46E5">Optimize your directory for search engines</text>
+</svg>

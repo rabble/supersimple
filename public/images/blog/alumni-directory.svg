@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450">
+  <rect width="800" height="450" fill="#4F46E5" opacity="0.1"/>
+  <rect x="300" y="150" width="200" height="150" rx="10" fill="#4F46E5" opacity="0.1"/>
+  <path d="M400,180 L400,230" stroke="#4F46E5" stroke-width="3"/>
+  <path d="M350,230 L450,230" stroke="#4F46E5" stroke-width="3"/>
+  <circle cx="400" cy="170" r="15" fill="#4F46E5" opacity="0.6"/>
+  <rect x="350" y="240" width="100" height="10" rx="5" fill="#4F46E5" opacity="0.3"/>
+  <rect x="350" y="260" width="100" height="10" rx="5" fill="#4F46E5" opacity="0.3"/>
+  <text x="400" y="100" font-family="Arial" font-size="24" font-weight="bold" text-anchor="middle" fill="#4F46E5">Alumni Association Directory</text>
+  <text x="400" y="350" font-family="Arial" font-size="16" text-anchor="middle" fill="#4F46E5">Connecting graduates and building networks</text>
+</svg>

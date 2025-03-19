@@ -1,0 +1,14 @@
+name = "auth-app"
+compatibility_date = "2023-06-21"
+main = "workers-site/index.js"
+compatibility_flags = ["nodejs_compat"]
+
+# Environment variables from .env.local
+[vars]
+NEXT_PUBLIC_SUPABASE_URL = "https://mzbodrwzhasiydvpvbid.supabase.co"
+NEXT_PUBLIC_SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im16Ym9kcnd6aGFzaXlkdnB2YmlkIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDA3MjA0NDAsImV4cCI6MjA1NjI5NjQ0MH0.4PtrUzyD5AUZzWqoWYpgMFlojhW2y9SH6-tPvahPxSo"
+SUPABASE_SERVICE_ROLE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im16Ym9kcnd6aGFzaXlkdnB2YmlkIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc0MDcyMDQ0MCwiZXhwIjoyMDU2Mjk2NDQwfQ.tNZ5V_U4S80_sXjtwASLyS-OnNN0tFQe7SNyWX-wa1A"
+OPENAI_API_KEY = "your-openai-api-key-here"
+
+[observability.logs]
+enabled = true

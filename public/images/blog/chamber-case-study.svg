@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450">
+  <rect width="800" height="450" fill="#4F46E5" opacity="0.1"/>
+  <rect x="300" y="150" width="200" height="150" rx="0" fill="#4F46E5" opacity="0.2"/>
+  <rect x="320" y="170" width="40" height="60" rx="0" fill="#4F46E5" opacity="0.3"/>
+  <rect x="380" y="170" width="40" height="60" rx="0" fill="#4F46E5" opacity="0.3"/>
+  <rect x="440" y="170" width="40" height="60" rx="0" fill="#4F46E5" opacity="0.3"/>
+  <rect x="300" y="250" width="200" height="30" rx="0" fill="#4F46E5" opacity="0.3"/>
+  <text x="400" y="100" font-family="Arial" font-size="24" font-weight="bold" text-anchor="middle" fill="#4F46E5">Chamber of Commerce Case Study</text>
+  <text x="400" y="350" font-family="Arial" font-size="16" text-anchor="middle" fill="#4F46E5">Building a local business directory</text>
+</svg>
