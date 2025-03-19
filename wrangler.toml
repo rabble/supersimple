@@ -1,7 +1,13 @@
-name = "auth-app"
+name = "supersimple-directory"
 compatibility_date = "2023-06-21"
 main = "workers-site/index.js"
 compatibility_flags = ["nodejs_compat"]
+
+# Custom domain configuration will be added once the domain is setup in Cloudflare
+# routes = [
+#   { pattern = "supersimple.directory", custom_domain = true },
+#   { pattern = "www.supersimple.directory", custom_domain = true }
+# ]
 
 # Environment variables from .env.local
 [vars]
