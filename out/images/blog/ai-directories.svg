@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450">
+  <rect width="800" height="450" fill="#4F46E5" opacity="0.1"/>
+  <rect x="280" y="175" width="240" height="100" rx="5" fill="#4F46E5" opacity="0.2"/>
+  <circle cx="310" cy="225" r="15" fill="#4F46E5" opacity="0.6"/>
+  <rect x="340" y="210" width="160" height="10" rx="5" fill="#4F46E5" opacity="0.6"/>
+  <rect x="340" y="230" width="160" height="10" rx="5" fill="#4F46E5" opacity="0.6"/>
+  <path d="M550,175 L600,200 L550,225" fill="none" stroke="#4F46E5" stroke-width="3"/>
+  <path d="M200,225 L250,200 L200,175" fill="none" stroke="#4F46E5" stroke-width="3"/>
+  <text x="400" y="100" font-family="Arial" font-size="24" font-weight="bold" text-anchor="middle" fill="#4F46E5">AI-Powered Directories</text>
+  <text x="400" y="350" font-family="Arial" font-size="16" text-anchor="middle" fill="#4F46E5">The future of directory technology</text>
+</svg>

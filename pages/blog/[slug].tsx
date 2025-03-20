@@ -317,8 +317,8 @@ export const getStaticPaths: GetStaticPaths = async () => {
 
   return {
     paths,
-    // Using fallback: 'blocking' will prevent missing paths errors during development
-    fallback: 'blocking'
+    // Must be false for static export
+    fallback: false
   };
 };
 
@@ -339,17 +339,15 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
       props: {
         post,
         relatedPosts
-      },
-      // Revalidate pages every hour
-      revalidate: 3600
+      }
+      // Remove revalidate property for static export
     };
   } catch (error) {
     console.error('Error in getStaticProps:', error);
     
     // Return a default post if there's an error
     return { 
-      notFound: true,
-      revalidate: 60 // Try again sooner if there was an error
+      notFound: true
     };
   }
 };

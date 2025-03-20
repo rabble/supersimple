@@ -1,0 +1,4 @@
+To use real Unsplash images, download this image:
+https://images.unsplash.com/photo-1664575196412-ed801e8333a1?q=80&w=1200&auto=format&fit=crop
+
+Save as directory-showcase.jpg in this directory.

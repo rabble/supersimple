@@ -130,7 +130,9 @@ const blogPosts = [
 ];
 
 // All unique categories for filtering
-const categories = ["All", ...new Set(blogPosts.map(post => post.category))];
+const categorySet = new Set<string>();
+blogPosts.forEach(post => categorySet.add(post.category));
+const categories = ["All", ...Array.from(categorySet)];
 
 export default function BlogIndex() {
   const router = useRouter();

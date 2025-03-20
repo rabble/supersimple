@@ -55,12 +55,19 @@ export default function Home() {
                 </div>
               </div>
               <div className="md:w-2/5 relative h-64 sm:h-72 md:h-96">
-                <div className="bg-indigo-100 rounded-xl shadow-lg absolute inset-0 flex items-center justify-center">
-                  <div className="p-5">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-24 h-24 text-indigo-500 mx-auto">
-                      <path strokeLinecap="round" strokeLinejoin="round" d="M20.25 6.375c0 2.278-3.694 4.125-8.25 4.125S3.75 8.653 3.75 6.375m16.5 0c0-2.278-3.694-4.125-8.25-4.125S3.75 4.097 3.75 6.375m16.5 0v11.25c0 2.278-3.694 4.125-8.25 4.125s-8.25-1.847-8.25-4.125V6.375m16.5 0v3.75m-16.5-3.75v3.75m16.5 0v3.75C20.25 16.153 16.556 18 12 18s-8.25-1.847-8.25-4.125v-3.75m16.5 0c0 2.278-3.694 4.125-8.25 4.125s-8.25-1.847-8.25-4.125" />
-                    </svg>
-                    <div className="text-indigo-800 mt-4 text-center font-medium">Directory Builder</div>
+                <div 
+                  className="bg-indigo-100 rounded-xl shadow-lg absolute inset-0"
+                  style={{
+                    backgroundImage: 'url(/images/unsplash/directory-showcase.jpg)',
+                    backgroundSize: 'cover',
+                    backgroundPosition: 'center'
+                  }}
+                >
+                  <div className="absolute inset-0 bg-indigo-900 bg-opacity-40 flex items-center justify-center rounded-xl">
+                    <div className="p-5 text-white text-center">
+                      <div className="text-2xl font-bold mb-2">AI-Powered Directory Builder</div>
+                      <div className="text-lg">Create, manage, and grow with ease</div>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -248,13 +255,18 @@ export default function Home() {
               <div className="bg-white rounded-lg shadow-sm border border-gray-200 overflow-hidden hover:shadow-md transition duration-300">
                 <div className="aspect-w-16 aspect-h-9 bg-gray-200">
                   <div 
-                    className="w-full h-48 bg-indigo-100 flex items-center justify-center"
+                    className="w-full h-48 bg-indigo-100 flex items-center justify-center relative"
                     style={{
-                      backgroundImage: 'url(/images/blog/business-directory.svg)',
+                      backgroundImage: 'url(/images/unsplash/business-directory.jpg)',
                       backgroundSize: 'cover',
                       backgroundPosition: 'center'
                     }}
                   >
+                    <div className="absolute inset-0 bg-black bg-opacity-30 flex items-center justify-center">
+                      <div className="px-3 py-1 bg-indigo-600 text-white rounded-full text-sm font-medium">
+                        Business Directories
+                      </div>
+                    </div>
                     <span className="sr-only">Business Directory Guide</span>
                   </div>
                 </div>
@@ -280,13 +292,18 @@ export default function Home() {
               <div className="bg-white rounded-lg shadow-sm border border-gray-200 overflow-hidden hover:shadow-md transition duration-300">
                 <div className="aspect-w-16 aspect-h-9 bg-gray-200">
                   <div 
-                    className="w-full h-48 bg-indigo-100 flex items-center justify-center"
+                    className="w-full h-48 bg-indigo-100 flex items-center justify-center relative"
                     style={{
-                      backgroundImage: 'url(/images/blog/ai-directories.svg)',
+                      backgroundImage: 'url(/images/unsplash/ai-directories.jpg)',
                       backgroundSize: 'cover',
                       backgroundPosition: 'center'
                     }}
                   >
+                    <div className="absolute inset-0 bg-black bg-opacity-30 flex items-center justify-center">
+                      <div className="px-3 py-1 bg-indigo-600 text-white rounded-full text-sm font-medium">
+                        AI Technology
+                      </div>
+                    </div>
                     <span className="sr-only">AI and the Future of Online Directories</span>
                   </div>
                 </div>
@@ -312,13 +329,18 @@ export default function Home() {
               <div className="bg-white rounded-lg shadow-sm border border-gray-200 overflow-hidden hover:shadow-md transition duration-300">
                 <div className="aspect-w-16 aspect-h-9 bg-gray-200">
                   <div 
-                    className="w-full h-48 bg-indigo-100 flex items-center justify-center"
+                    className="w-full h-48 bg-indigo-100 flex items-center justify-center relative"
                     style={{
-                      backgroundImage: 'url(/images/blog/chamber-case-study.svg)',
+                      backgroundImage: 'url(/images/unsplash/team-collaboration.jpg)',
                       backgroundSize: 'cover',
                       backgroundPosition: 'center'
                     }}
                   >
+                    <div className="absolute inset-0 bg-black bg-opacity-30 flex items-center justify-center">
+                      <div className="px-3 py-1 bg-indigo-600 text-white rounded-full text-sm font-medium">
+                        Success Story
+                      </div>
+                    </div>
                     <span className="sr-only">How a Local Business Chamber Built a Directory in One Day</span>
                   </div>
                 </div>

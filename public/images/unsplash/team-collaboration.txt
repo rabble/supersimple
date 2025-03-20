@@ -1,0 +1,4 @@
+To use real Unsplash images, download this image:
+https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=1200&auto=format&fit=crop
+
+Save as team-collaboration.jpg in this directory.

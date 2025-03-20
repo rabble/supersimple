@@ -5,12 +5,11 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "export": "next-on-pages --skip-build",
-    "deploy": "npm run build && wrangler deploy workers-site/index.js --compatibility-flag=nodejs_compat",
     "start": "next start",
     "lint": "next lint",
     "test": "jest",
-    
+    "deploy": "npm run build && wrangler pages deploy out --project-name=supersimple-directory",
+    "deploy:prod": "npm run build && wrangler pages deploy out --project-name=supersimple-directory --branch=main --commit-dirty=true",
     "setup-db": "ts-node scripts/setup-database.ts",
     "setup-db-simple": "ts-node scripts/setup-db-simple.ts",
     "create-sample": "ts-node scripts/create-sample-directory.ts",
@@ -19,8 +18,7 @@
     "create-maori-businesses": "ts-node scripts/create-maori-businesses-directory.ts",
     "create-about-pages": "ts-node scripts/create-about-pages.ts",
     "cypress": "cypress open",
-    "e2e": "cypress run",
-    "deploy:prod": "wrangler deploy --env production"
+    "e2e": "cypress run"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.38.4",
@@ -53,6 +51,6 @@
     "tailwindcss": "^3.4.17",
     "ts-node": "^10.9.2",
     "typescript": "^5.2.2",
-    "wrangler": "^3.114.1"
+    "wrangler": "^4.2.0"
   }
 }
